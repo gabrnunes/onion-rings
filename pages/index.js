@@ -17,10 +17,11 @@ export default function Home() {
 
       <main className={styles.main}>
         <Image src="/logo.svg" alt="Onion Rings" width={315} height={80} />
-        <p>Organização de eventos, com foco em experiências espetaculares.</p>
       </main>
 
       <footer className={styles.footer}>
+        <p>Organização de eventos, com foco em experiências espetaculares.</p>
+        <div className={styles.events}>
         <a
           href="https://shiftfestival.cc"
           target="_blank"
@@ -36,6 +37,7 @@ export default function Home() {
         <a href="https://codecon.dev" target="_blank" rel="noopener noreferrer">
           <Image src="/codecon.svg" alt="Codecon" width={180} height={60} />
         </a>
+        </div>
       </footer>
     </div>
   );

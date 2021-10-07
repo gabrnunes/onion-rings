@@ -6,15 +6,15 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url("/bg.jpg");
-  background-size: cover;
+  background: rgb(210,75,101);
+  background: linear-gradient(30deg, rgba(210,75,101,1) 0%, rgba(9,9,121,1) 63%, rgba(3,16,45,1) 100%);
 }
 
 .main {
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
   color: #fff;
   text-align: center;
@@ -24,13 +24,19 @@
   width: 100%;
   height: 50vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   color: #fff;
-  gap: 50px;
+  gap: 20px;
 }
 
-.footer a {
+.events {
+	display: flex;
+	gap: 50px;
+}
+
+.events a {
   display: flex;
   justify-content: center;
   align-items: center;
